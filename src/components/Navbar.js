@@ -7,6 +7,9 @@ import logo from '../images/logo.svg'
 const Navbar = () => {
 
     let [isOpen, setIsOpen] = useState(false)
+    const closeNavbar = () => {
+        setIsOpen(false);
+    };
     return (
         <div className="bg-white z-50 fixed shadow-sm w-full ">
             <div className="lg:px-24 py-5 px-8 lg:flex justify-between items-center">
@@ -25,11 +28,11 @@ const Navbar = () => {
                     
                 </div>
                 <div className={`flex flex-col items-left lg:items-center lg:text-sm text-center lg:flex-row absolute shadow lg:shadow-none lg:static lg:z-auto z-[-1] left-0 w-full px-20 lg:w-auto lg:pl-0 pl:8 transition-all duration-500 ease-in  ${isOpen ? 'top-12 bg-white' : 'top-[-490px]'}`}>
-                    <Link to='/' className="md:mr-8 hover:text-primaryColor duration-300 mt-8 mb-4 lg:my-4 lg:ml-4">صفحه اصلی</Link>
-                    <Link to='/testlist' className="md:mr-5 hover:text-primaryColor duration-300 my-4 lg:ml-4">لیست آزمایشات</Link>
-                    <Link to='/blogpage' className="md:mr-5 hover:text-primaryColor duration-300 my-4 lg:ml-4">وبلاگ</Link>
-                    <Link to='/connect' className="md:mr-5 hover:text-primaryColor duration-300 my-4 lg:ml-96 lg:pl-28 lg:pl-4">ارتباط با ما</Link>
-                    <Link to='/javabdehi'><button className=" text-white py-2 lg:px-3 px-12 bg-primaryColor hover:opacity-75 duration-300 rounded my-4 lg:my-0">جواب دهی آنلاین</button></Link>
+                    <Link to='/' className="md:mr-8 hover:text-primaryColor duration-300 mt-8 mb-4 lg:my-4 lg:ml-4" onClick={closeNavbar}>صفحه اصلی</Link>
+                    <Link to='/testlist' className="md:mr-5 hover:text-primaryColor duration-300 my-4 lg:ml-4" onClick={closeNavbar}>لیست آزمایشات</Link>
+                    <Link to='/blogpage' className="md:mr-5 hover:text-primaryColor duration-300 my-4 lg:ml-4" onClick={closeNavbar}>وبلاگ</Link>
+                    <Link to='/connect' className="md:mr-5 hover:text-primaryColor duration-300 my-4 lg:ml-96 lg:pl-28 lg:pl-4" onClick={closeNavbar}>ارتباط با ما</Link>
+                    <Link to='/javabdehi'><button className=" text-white py-2 lg:px-3 px-12 bg-primaryColor hover:opacity-75 duration-300 rounded my-4 lg:my-0" onClick={closeNavbar}>جواب دهی آنلاین</button></Link>
                 </div>
             </div>
         </div>
