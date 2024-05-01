@@ -12,9 +12,6 @@ import BlogPage from "./components/BlogPage";
 import Footer from './components/Footer';
 import NotFound from "./components/NotFound";
 
-// loading
-import GridLoader from "react-spinners/GridLoader";
-
 function App() {
 
   const [loading, setLoading] = useState(false)
@@ -27,16 +24,6 @@ function App() {
 
   return (
     <div>
-      {
-        loading ?
-        <GridLoader className="loader"
-        color={'#28449F'}
-        loading={loading}
-        size={20}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-        /> :
-        <>
           <Navbar />
           <Routes>
             <Route path='/' Component={LandingPage} />
@@ -47,8 +34,6 @@ function App() {
             <Route path="/*" Component={NotFound} />
           </Routes>
           <Footer />
-        </>
-      }
     </div>
   );
 }
