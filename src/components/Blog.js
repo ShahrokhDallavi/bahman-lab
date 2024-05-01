@@ -41,7 +41,7 @@ const Blog = () => {
                     <h1 className="text-lg font-bold text-textColor">وبلاگ های آزمایشگاه بهمن</h1>
                     <div className="h-1 w-20 bg-primaryColor rounded mt-4"></div>
                 </div>
-                <div className="grid grid-cols-1 px-16 lg:px-20 mt-8">
+                <div className="grid grid-cols-1 md:px-16 px-7 lg:px-20 mt-8">
                 <Slider {...settings}>
                     <div>
                         <Link to="/blogpage" className="lg:w-1/4 md:w-1/2 p-4">
