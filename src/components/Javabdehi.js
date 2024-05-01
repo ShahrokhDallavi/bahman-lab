@@ -33,7 +33,7 @@ const Javabdehi = () => {
                     </div>
                     <button className='bg-primaryColor text-white lg:w-[275px] w-[262px] py-2 rounded tracking-widest hover:shadow-inner-deep hover:bg-bgForm hover:text-primaryColor duration-300 mb-12'>ورود</button>
                 </div>
-                <div className='flex flex-col justify-center items-center text-center bg-primaryColor rounded py-16 mx-8 md:mx-24 lg:mx-0 mb-28 lg:mt-40'>
+                <div className='flex flex-col justify-center items-center text-center bg-primaryColor rounded py-16 px-4 md:mx-8 md:mx-24 lg:mx-0 mb-28 lg:mt-40'>
                     <div className='flex text-textColor text-xs lg:text-sm pb-8'>
                         <button className={`bg-bgSection mx-2 py-2 px-4 rounded shadow-inner-deep hover:bg-primaryColor hover:text-white duration-200 ${action==="مراجعین" ? "bg-primaryColor , text-white" : ""}`} onClick={()=>{setAction("مراجعین")}}>ورود مراجعین</button>
                         <button className={`bg-bgSection mx-2 py-2 px-4 rounded shadow-inner-deep hover:bg-primaryColor hover:text-white duration-200 ${action==="آزمایشگاه های همکار" ? "bg-primaryColor , text-white" : ""}`} onClick={()=>{setAction("آزمایشگاه های همکار")}}>آزمایشگاه های همکار</button>
