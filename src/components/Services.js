@@ -9,7 +9,7 @@ import arrowbottom from '../images/arrowbottom.svg'
 
 const Services = () => {
     return (
-        <div className='pt-2 md:pt-0'>
+        <div className='lg:pt-2 md:pt-0'>
             <div className="lg:px-24 px-8 w-full lg:h-80  lg:-mt-10 bg-primaryColor mt-[-18px]">
                 <div className="flex items-center justify-center relative">
                     <img src={arrowbottom} alt='arrowbottom' className="relative lg:block mx-auto hidden" />

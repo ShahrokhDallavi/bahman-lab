@@ -9,10 +9,12 @@ import Phone from './Phone';
 import Blog from './Blog';
 import Bime from './Bime';
 import Instagram from './Instagram';
+import ScrollToTop from '../helper/ScrollToTop';
 
 const LandingPage = () => {
     return (
         <div>
+            <ScrollToTop />
             <Header />
             <Services />
             <Process />
