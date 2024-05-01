@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 // Components
@@ -13,15 +13,6 @@ import Footer from './components/Footer';
 import NotFound from "./components/NotFound";
 
 function App() {
-
-  const [loading, setLoading] = useState(false)
-  useEffect(()=> {
-    setLoading(true)
-    setTimeout(()=>{
-      setLoading(false)
-    }, 2500)
-  },[])
-
   return (
     <div>
           <Navbar />
