@@ -37,7 +37,7 @@ const Blog = () => {
     return (
         <div>
             <div className="px-5 py-24 mx-auto">
-                <div className="flex flex-col items-center lg:items-start text-center lg:text-right px-24 w-full ">
+                <div className="flex flex-col items-center lg:items-start text-center lg:text-right md:px-24 px-8 w-full ">
                     <h1 className="text-lg font-bold text-textColor">وبلاگ های آزمایشگاه بهمن</h1>
                     <div className="h-1 w-20 bg-primaryColor rounded mt-4"></div>
                 </div>

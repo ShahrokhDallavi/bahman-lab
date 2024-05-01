@@ -73,11 +73,11 @@ const TestList = () => {
     return (
             <>
             <ScrollToTop />
-            <div class="flex flex-col items-center lg:items-start text-center lg:text-right px-24 w-full pt-36">
+            <div class="flex flex-col items-center lg:items-start text-center lg:text-right lg:px-24 px-8 w-full pt-36">
                 <h1 class="text-lg font-bold text-textColor">آمادگی های قبلی برای انجام آزمایش</h1>
                 <div class="h-1 w-20 bg-primaryColor rounded mt-4"></div>
             </div>
-            <div className='w-full h-auto px-24 py-8 flex justify-center'>
+            <div className='w-full h-auto lg:px-24 px-8 py-8 flex justify-center'>
                 <div className='w-full h-max border border-gray rounded overfelow-hidden text-textColor shadow-xl cursor-pointer'>
                     
                     {accordeon.map((item, i) => (

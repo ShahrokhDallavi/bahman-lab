@@ -8,11 +8,11 @@ import banner03 from '../images/banner03.png'
 const Process = () => {
     return (
         <div className="-mt-80 lg:mt-8">
-            <div className="flex flex-col text-center items-center lg:items-start lg:text-right px-24 lg:pt-28 pt-96 ">
+            <div className="flex flex-col text-center items-center lg:items-start lg:text-right md:px-24 px-8 lg:pt-28 pt-96 ">
                 <h1 className="text-lg font-bold text-textColor">روند انجام آزمایش در آزمایشگاه بهمن</h1>
                 <div className="h-1 w-20 bg-primaryColor rounded mt-4"></div>
             </div>
-            <div className="px-24 py-14 flex">
+            <div className="md:px-24 px-8 py-14 flex">
                 <div className="flex flex-col lg:flex-row w-full justify-center items-center">
                 <div className="lg:w-1/2 lg:pr-10 md:py-6">
                     <div className="flex relative pb-20 md:mt-2">

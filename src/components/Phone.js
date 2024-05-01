@@ -8,7 +8,7 @@ const Phone = () => {
         <div className="pt-28 text-center lg:mt-8">
             <div className="relative flex flex-wrap lg:flex-rows justify-around items-center text-white bg-primaryColor rounded-xl px-8 lg:px-0 py-8 mx-24">
                 <div>
-                    <img src={dr} alt='drImage' className="w-56 absolute -top-20 right-11 lg:w-64 lg:right-5 lg:-top-24 md:right-48" />
+                    <img src={dr} alt='drImage' className="w-56 absolute -top-20 right-3 lg:w-64 lg:right-5 lg:-top-24 md:right-48" />
                 </div>
                 <div className="flex flex-col pt-32 lg:pt-8 lg:pr-24">
                     <h2 className="text-lg">از پزشکان آزمایشگاه بهمن <span className="text-secondaryColor">مشاوره</span> بگیرید</h2>

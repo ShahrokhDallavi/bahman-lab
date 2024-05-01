@@ -13,8 +13,8 @@ const Javabdehi = () => {
     return (
         <div className='flex justify-center items-center'>
             <ScrollToTop />
-            <div className='flex flex-wrap'>
-                <div className='flex flex-col justify-center items-center bg-bgForm rounded py-8 px-12 md:px-28 lg:px-8 lg:mb-28  mt-40 mx-8 md:mx-24 lg:mx-0'>
+            <div className='flex flex-wrap justify-center items-center'>
+                <div className='flex flex-col justify-center items-center bg-bgForm rounded py-8 md:px-28 lg:px-8 lg:mb-28  mt-40 md:mx-24 lg:mx-0'>
                     <h3 className='text-primaryColor font-bold pb-8'>آزمایشگاه پاتوبیولوژی بهمن</h3>
                     <h5 className='text-secondaryColor font-bold tracking-wider lg:pb-8'>{action}</h5>
                     <div className='rounded-lg p-8 flex flex-col w-full mt-10'>
@@ -33,7 +33,7 @@ const Javabdehi = () => {
                     </div>
                     <button className='bg-primaryColor text-white lg:w-[275px] w-[262px] py-2 rounded tracking-widest hover:shadow-inner-deep hover:bg-bgForm hover:text-primaryColor duration-300 mb-12'>ورود</button>
                 </div>
-                <div className='flex flex-col justify-center items-center text-center bg-primaryColor rounded py-8 px-8 mx-8 md:mx-24 lg:mx-0 mb-28 lg:mt-40'>
+                <div className='flex flex-col justify-center items-center text-center bg-primaryColor rounded py-16 mx-8 md:mx-24 lg:mx-0 mb-28 lg:mt-40'>
                     <div className='flex text-textColor text-xs lg:text-sm pb-8'>
                         <button className={`bg-bgSection mx-2 py-2 px-4 rounded shadow-inner-deep hover:bg-primaryColor hover:text-white duration-200 ${action==="مراجعین" ? "bg-primaryColor , text-white" : ""}`} onClick={()=>{setAction("مراجعین")}}>ورود مراجعین</button>
                         <button className={`bg-bgSection mx-2 py-2 px-4 rounded shadow-inner-deep hover:bg-primaryColor hover:text-white duration-200 ${action==="آزمایشگاه های همکار" ? "bg-primaryColor , text-white" : ""}`} onClick={()=>{setAction("آزمایشگاه های همکار")}}>آزمایشگاه های همکار</button>

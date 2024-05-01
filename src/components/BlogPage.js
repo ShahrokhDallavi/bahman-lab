@@ -13,7 +13,7 @@ const BlogPage = () => {
     return (
         <div className='flex flex-col justify-center items-center px-8'>
             <ScrollToTop />
-            <div className="flex flex-col items-center lg:items-start text-center lg:text-right px-24 w-full pt-36">
+            <div className="flex flex-col items-center lg:items-start text-center lg:text-right px-8 w-full pt-36">
                 <h1 className="text-lg font-bold text-textColor">وبلاگ های آزمایشگاه</h1>
                 <div className="h-1 w-20 bg-primaryColor rounded mt-4"></div>
             </div>
