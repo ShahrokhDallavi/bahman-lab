@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide > div{
+  margin: 0 10px;
+}
+
+.slick-dots li button:before {
+  color: #28449F !important;
+  font-size: 8px !important;
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  font-family: yekan;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
